@@ -1,0 +1,121 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: Montserrat, Poppins;
+  background: black;
+  position: relative;
+}
+* {
+  margin: 0;
+}
+
+.navbar img {
+  width: 72px;
+  margin-left: 310px;
+  margin-top: 18px;
+}
+.line {
+  position: absolute;
+  background: white;
+  width: 1px;
+  height: 35px;
+  top: 14px;
+  left: 420px;
+}
+.list-item {
+  display: inline-block;
+}
+.list :nth-child(1) {
+  position: absolute;
+  left: 29rem;
+  top: 1.4rem;
+  font-weight: medium;
+  font-size: 0.7rem;
+  color: white;
+}
+.list :nth-child(2) {
+  position: absolute;
+  left: 32.5rem;
+  top: 1.4rem;
+  font-weight: medium;
+  font-size: 0.7rem;
+  color: white;
+}
+.list :nth-child(3) {
+  position: absolute;
+  left: 36rem;
+  top: 1.4rem;
+  font-weight: medium;
+  font-size: 0.7rem;
+  color: white;
+}
+.list :nth-child(4) {
+  position: absolute;
+  left: 42rem;
+  top: 1.4rem;
+  font-weight: medium;
+  font-size: 0.7rem;
+  color: white;
+}
+.list :nth-child(5) {
+  position: absolute;
+  left: 46rem;
+  top: 1.4rem;
+  font-weight: medium;
+  font-size: 0.7rem;
+  color: white;
+}
+.button-small {
+  background: rgb(184, 13, 184);
+  border: 0px;
+  padding: 0.4rem 1rem;
+  color: white;
+  font-family: poppins;
+  font-size: 0.7rem;
+  font-weight: medium;
+  border-radius: 0.4rem;
+  position: absolute;
+  left: 55rem;
+  top: 1rem;
+}
+.hero {
+  background: url("./assets/bg.png");
+  height: 89vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 14px;
+}
+.hero-heading {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  inline-size: 500px;
+  overflow-wrap: break-word;
+  margin-left: 24rem;
+  top: 6rem;
+  text-align: center;
+}
+.button-large {
+  background: rgb(184, 13, 184);
+  border: 0px;
+  padding: 0.7rem 1.5rem;
+  color: white;
+  font-family: poppins;
+  font-size: 0.9rem;
+  font-weight: medium;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  position: absolute;
+  left: 32.5rem;
+  top: 17rem;
+}
+.hero-description {
+  color: white;
+  position: absolute;
+  top: 13.5rem;
+  left: 27.4rem;
+}
